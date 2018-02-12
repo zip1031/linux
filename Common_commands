@@ -1,0 +1,31 @@
+#查看硬盘状态
+	df -h
+
+#压缩
+	#tar
+		#打包
+			tar czvf fileName.tar dirName
+		#解包
+			tar zxvf fileName.tar
+	#gz
+		#打包
+			gzip -d fileName.gz
+		#解包
+			gunzip fileName.gz
+			gzip -d fileName.gz
+	#bz2
+		#打包
+			bzip2 -z fileName
+		#解包
+			bzip2 -d fileName.bz2
+			bunzip2 fileName.bz2
+	#Z
+		#打包
+			compress fileName
+		#解包
+			uncompress fileName.Z
+	#zip
+		#打包
+			zip fileName.zip dirName
+		#解包
+			unzip fileName.zip
